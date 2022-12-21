@@ -7,26 +7,28 @@ class LocalString extends Translations {
   // TODO: implement key
   Map<String, Map<String, String>> get keys => {
     'en':{
-      'appbars' : 'Language translation app',
-      'drawers' : "Profile",
-      'messages' : "This is first page",
+      'main_text' : 'Language Translation App',
+      'profile' : "Profile",
+      'messages' : "This Is First Page",
       'home' : "Home",
       'setting' : "Setting",
       'darkmode' : "Dark Mode",
       'lightmode' : "Light Mode",
       'language' : "Khmer / English",
-      'loginwith' : "Login With FingerPrint"
+      'loginwith' : "Login With FingerPrint",
+      'font' : "Fonts"
     },
     'KH' : {
-      'appbar' : 'កម្មវិធីបកប្រែភាសា',
-      'drawer' : "ប្រវត្តិរូប",
-      'message' : "នេះជាទំព័រដំបូង",
-      'home' : "ផ្ទះ",
+      'main_text' : 'កម្មវិធីបកប្រែភាសា',
+      'profile' : "ប្រវត្តិរូប",
+      'messages' : "នេះជាទំព័រដំបូង",
+      'home' : "ហូម",
       'setting' : "ការកំណត់",
-      'darkmode' : "របៀបងងឹត",
-      'lightmode' : "របៀបពន្លឺ",
+      'darkmode' : "ងងឹត",
+      'lightmode' : "ពន្លឺ",
       'language' : "ខ្មែរ/អង់គ្លេស",
-      'loginwith' : "ចូលដោយប្រើស្នាមម្រាមដៃ"
+      'loginwith' : "ចូលដោយប្រើស្នាមម្រាមដៃ",
+      'font' : "ម៉ូតអក្សរ"
     }
   };
 }
